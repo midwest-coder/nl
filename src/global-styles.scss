@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+
+$orange: #ffb300;
+$light-orange: #ffc38a;
+$lighter-orange: #ffe1c4;
+$light-black: #262524;
+$lighter-black: #303030;
+$lightest-black: #363636;
+
+$family-sans-serif: sans-serif;
+$primary: $lighter-orange;
+
+$link: $light-orange;
+
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+
+html {
+  background: linear-gradient(to right bottom, $lighter-black, $lightest-black);
+}
+
+html, body {
+  height: 100%;
+}
